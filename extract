@@ -1,0 +1,6 @@
+#!/bin/bash
+file=$@
+echo "extracting emails from $file"
+grep -Po '(?<=(<)).*(?=>)' $file | grep '@' | grep -v 'https' | grep -v '!--' | grep "^.\{0,50\}$" > tmp.txt
+sort tmp.txt | uniq > extracted.txt
+rm tmp.txt
