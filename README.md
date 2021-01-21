@@ -12,4 +12,5 @@ run the command
 
 ```./extract.sh Path/To/Mbox.mbox```
 
-###note that the tool isn't perfect and might give you some random text
+## note 
+this the tool isn't perfect and might give you some random text
