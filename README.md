@@ -1,16 +1,11 @@
-A linux shell script to extract emails from an mbox file (or any text file really)
+A bash script to extract emails from mbox files (or any text file)
 
-## Use
+**note** that you might get some random text with the output
 
-```git clone https://github.com/thesusian/EmailExtractor.git```
-
-```cd EmailExtractor/```
-
-```chmod +x extract.sh```
-
-run the command
-
-```./extract.sh Path/To/Mbox.mbox```
-
-## note 
-this the tool isn't perfect and might give you some random text
+### Use
+```bash
+git clone https://github.com/thesusian/EmailExtractor.git
+cd EmailExtractor/
+chmod +x extract
+./extract Path/To/Mbox.mbox
+```
